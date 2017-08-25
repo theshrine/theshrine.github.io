@@ -1,5 +1,7 @@
 $(document).ready(function(){
+    var h=screen.height;
     var ht=$('.block').height();
+    alert(h);
     $(window).scroll(function(){
        var scroll=$(window).scrollTop();
        //alert(scroll);
